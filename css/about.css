@@ -1,0 +1,58 @@
+.about-page {
+    margin: 75px auto;
+}
+
+.img-sec {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-sec img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.para-sec {
+    width: 95%;
+    margin: 30px auto;
+    max-width: 650px;
+}
+
+.para-sec h3 {
+    margin: 0px auto 10px auto;
+}
+
+.para-sec p, .section-two p {
+    margin: 24px auto;
+    color: var(--white-sh-color);
+}
+
+.section-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-two {
+    width: 90%;
+    margin: auto;
+}
+
+.section-two h2 {
+    margin: 50px auto 0px auto;
+}
+
+@media screen and (min-width:800px) {
+    .para-sec {
+        width: 70%;
+    }
+
+    .img-sec {
+        width: 30%;
+    }
+
+    .section-one {
+        margin: auto;
+    }
+}

@@ -1,0 +1,55 @@
+.country-page {
+    width: 95%;
+    margin: 50px auto;
+}
+
+.dest-about {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.dest-about h2, .dest-about p {
+    margin: 20px auto;
+    color: var(--white-color);
+}
+
+.dest-about p {
+    color: var(--white-shd-color);
+}
+
+.article-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-post-text p {
+    margin-top: 10px;
+}
+
+.blog-post-imgs img {
+    width: 100%;
+}
+
+.blog-head p {
+    font-size: clamp(1rem, 2vw + 1rem, 2rem);
+}
+
+@media screen and (min-width:800px) {
+    .country-articles {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .s-intro {
+        max-width: 400px;
+        width: 40%;
+        margin: 50px 15px;
+        margin-left: 25px;
+    }
+
+    .dest-about {
+        margin-top: 50px;
+    }
+}

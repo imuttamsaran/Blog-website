@@ -1,0 +1,135 @@
+.video-page {
+    width: 95%;
+    margin: auto;
+}
+
+.fet-video video {
+    /* border-radius: 10px; */
+    width: 100%;
+    max-height: 70vh;
+}
+
+.folder {
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.folder-name {
+    position: relative;
+    width: fit-content;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.folder video {
+    width: 100%;
+    max-height: 280px;
+    max-width: 400px;
+}
+
+
+.folder h3 {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+    width: fit-content;
+    max-width: 400px;
+}
+
+video::-webkit-media-controls-play-button {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+video::-webkit-media-controls-volume-slider {
+    background-color: var(--primary-color);
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-left: 50px;
+    position: absolute;
+    top: -100%;
+    background-color: red;
+}
+video::-webkit-media-controls-volume-slider::after{
+    background-color: red;
+}
+video::-webkit-media-controls-fullscreen-button, video::-webkit-media-controls-mute-button {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+video::-webkit-media-controls-mute-button {
+    margin-left: 50px !important;
+}
+video::-webkit-media-controls-timeline {
+    background-color: var(--primary-color);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: red;
+}
+
+video::-webkit-media-controls-panel {
+    cursor: pointer;
+    background-color: #0000001c;
+    height: fit-content;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+    /* display: none; */
+}
+
+video::-webkit-media-controls-current-time-display {
+    color: var(--primary-color);
+    margin-top: 100px;
+}
+
+video::-webkit-media-controls-time-remaining-display {
+    color: var(--primary-color);
+}
+
+video::-webkit-media-controls {
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .folder video:hover {
+        transform: none;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:550px) {
+    .folder video {
+        width: 100%;
+        max-width: 180px;
+    }
+    .folder h3 {
+        font-size: 12px;
+        max-width: 175px;
+    }
+}
+
+@media screen and (min-width:551px) and (max-width:768px) {
+    .folder video {
+        width: 100%;
+        max-width: 250px;
+    }
+    .folder h3 {
+        font-size: 18px;
+        max-width: 220px;
+    }
+}

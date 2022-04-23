@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="/img/website-logo-p.jpg">
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <link rel="stylesheet" href="/js/index.js">
+    <title>Beaches . Nomad Uttam - Solo Traveller</title>
+</head>
+
+<body onload="loadfun()">
+    <div class="container">
+        <nav class="navbar topnav" id="navigation">
+            <div class="head">
+                <a href="/index.htm"> <img src="/img/website-logo-p.jpg" alt="Website Logo">
+                </a>
+            </div>
+            <ul class="nav-items head-link" id="navigate">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+                <li class="heada"><a href="/index.htm">Home</a></li>
+                <li class="heada"><a href="/pages/destination.htm">Destinations</a></li>
+                <li class="heada"><a href="/pages/blog.htm">Blog</a></li>
+                <li class="heada"><a href="/pages/gear.htm">Travel Gear</a></li>
+                <li class="heada" style="cursor: default;">
+                    <div class="dropdown">
+                        <a class="gel">Gallery</a>
+                        <div class="dropdown-list uncut">
+                            <a href="/pages/images.htm">Images</a>
+                            <a href="/pages/videos.htm">Videos</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="heada" style="cursor: default;">
+                    <div class="dropdown">
+                        <a class="gel">Categories</a>
+                        <div class="dropdown-list">
+                            <a href="/category/hitchhiking.htm">Hitch Hiking</a>
+                            <a href="/category/beach.htm">Beach</a>
+                            <a href="/category/mountains.htm">Mountains</a>
+                            <a href="/category/ocean.htm">Ocean</a>
+                            <a href="/category/waterfalls.htm">Waterfalls</a>
+                            <a href="/category/camping.htm">Camping</a>
+                            <a href="/category/couchsurfing.htm">Couch-Surfing</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="heada" style="cursor: default;">
+                    <div class="dropdown">
+                        <a class="gel">Pages</a>
+                        <div class="dropdown-list uncut">
+                            <a href="#">Books</a>
+                            <a href="#">Movies</a>
+                            <a href="#">Places</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="menu">
+                <li class="searchbar">
+                    <form class="search" action="/pages/search.htm">
+                        <input type="checkbox" id="toggleSearch" class="search__toggle" hidden />
+                        <div class="search__field">
+                            <label for="toggleSearch" class="search__label">
+                                <span class="search__close"></span>
+                            </label>
+                            <input type="text" class="search__input" placeholder="Search here" />
+                            <label for="toggleSearch" class="search__label">
+                                <div class="search__button">
+                                    <div class="search__icon search__button--toggle"></div>
+                                </div>
+                                <button class="search__button search__button--submit">
+                                    <div class="search__icon"></div>
+                                </button>
+                            </label>
+                        </div>
+                    </form>
+                </li>
+                <div class="stairs" id="nav-icon1">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+            </div>
+        </nav>
+        <div class="travel-blog">
+            <h1>Beaches</h1>
+            <hr>
+        </div>
+        <div class="content-contrs">
+            <div class="ctr-blog">
+                <div class="ctr-blog-in">
+                    <a href="#">
+                        <img src="/post img/aa001.jpg" alt="poster image" width="100%">
+                        <h1>Best Beaches in Australia</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="ctr-blog">
+                <div class="ctr-blog-in">
+                    <a href="#">
+                        <img src="/post img/sunscreen.jpg" alt="poster image" width="100%">
+                        <h1>Best Beaches in Australia</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="ctr-blog">
+                <div class="ctr-blog-in">
+                    <a href="#">
+                        <img src="/post img/raincoat.jpg" alt="poster image" width="100%">
+                        <h1>Best Beaches in Australia</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="ctr-blog">
+                <div class="ctr-blog-in">
+                    <a href="#">
+                        <img src="/post img/slippers.jpg" alt="poster image" width="100%">
+                        <h1>Best Beaches in Australia</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="copy">
+                    <h6>COPYRIGHT &copy; 2022 NOMAD UTTAM</h6>
+                </div>
+                <div class="links">
+                    <a href="/links/about.htm">About me</a>
+                    <a href="/links/contact.htm">Contact Me</a>
+                    <a href="/links/privacy.htm">Privacy Policy</a>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/nomaduttam" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nomaduttam" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com/nomad_uttam" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCCe8u7febsKIrEk6O3A8B-g" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up"
+                    aria-hidden="true"></i>
+            </button>
+        </footer>
+    </div>
+    <script>
+        // menu button
+        document.querySelector("#nav-icon1").addEventListener("click", function () {
+            document.querySelector(".navbar").classList.toggle("responsive");
+            document.querySelector("#nav-icon1").classList.toggle("open");
+        });
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        // for preloader
+        var load = document.getElementById("loading");
+        function loadfun() {
+            load.style.display = 'none';
+        }
+        // search bar
+        document.addEventListener('click', (e) => {
+            const toggle = document.querySelector('.search__toggle')
+            const input = document.querySelector('.search__input')
+            const clickedElement = e.target
+
+            if (clickedElement == toggle) {
+                input.value = ''
+                return;
+            }
+
+            const isSearchField = clickedElement.closest('.search__field')
+
+            if (!isSearchField) {
+                toggle.checked = false
+                input.value = ''
+            }
+        })
+     // dark mode 
+     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+     const currentTheme = localStorage.getItem('theme');
+
+     if (currentTheme) {
+         document.documentElement.setAttribute('data-theme', currentTheme);
+
+         if (currentTheme === 'light') {
+             toggleSwitch.checked = true;
+         }
+     }
+
+     function switchTheme(e) {
+         if (e.target.checked) {
+             document.documentElement.setAttribute('data-theme', 'light');
+             localStorage.setItem('theme', 'light');
+         }
+         else {
+             document.documentElement.setAttribute('data-theme', 'dark');
+             localStorage.setItem('theme', 'dark');
+         }
+     }
+
+     toggleSwitch.addEventListener('change', switchTheme, false);
+
+    </script>
+</body>
+
+</html>

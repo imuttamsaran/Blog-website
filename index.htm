@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="/img/website-logo-p.jpg">
+    <meta name="description"
+        content="Nomad Uttam is an adventure travel blog dedicated to helping you adventure better and travel smarter." />
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <link rel="canonical" href="http://www.nomaduttam.in/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nomad Uttam - Solo Traveller" />
+    <meta property="og:url" content="http://www.nomaduttan.in/" />
+    <meta property="og:site_name" content="Nomad Uttam" />
+    <meta property="article:publisher" content="https://www.facebook.com/nomaduttam/" />
+    <meta property="article:modified_time" content="2021-09-03T17:16:09+00:00" />
+    <meta property="og:image" content="http://www.nomaduttam.in/img/website-logo-p.jpg" />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="1067" />
+    <meta property="og:image:alt" content="I’m An Adventure Seeker. It’s in My Blood." />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Manifest your dreams of traveling the world." />
+    <meta name="twitter:site" content="@nomad_uttam" />
+    <meta name="twitter:title" content="Nomad Uttam - Solo Traveller" />
+    <meta name="twitter:image" content="http://www.nomaduttam.in/img/website-logo-p.jpg" />
+    <meta name="instagram:site" content="@nomaduttam" />
+    <meta name="theme-color" content="#ff8800">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <title>Nomad Uttam - Solo Traveller</title>
+</head>
+
+<body>
+    <div class="container">
+        <video autoplay muted loop id="myVideo">
+            <source src="/video/background-main-page.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <button id="myBtns" onclick="myFunction()"><i id="but" class="fa fa-pause"></i></button>
+        <div class="cont">
+            <nav class="navbar topnav" id="navigation">
+                <div class="head">
+                    <a href="/index.htm"> <img src="/img/website-logo-p.jpg" alt="Website Logo">
+                    </a>
+                </div>
+                <ul class="nav-items head-link" id="navigate">
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider round"></div>
+                        </label>
+                    </div>
+                    <li class="heada"><a href="/index.htm">Home</a></li>
+                    <li class="heada"><a href="/pages/destination.htm">Destinations</a></li>
+                    <li class="heada"><a href="/pages/blog.htm">blog</a></li>
+                    <li class="heada"><a href="/pages/gear.htm">Travel Gear</a></li>
+                    <li class="heada" style="cursor: default;">
+                        <div class="dropdown">
+                            <a class="gel">Gallery</a>
+                            <div class="dropdown-list uncut">
+                                <a href="/pages/images.htm">Images</a>
+                                <a href="/pages/videos.htm">Videos</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="heada" style="cursor: default;">
+                        <div class="dropdown">
+                            <a class="gel">Categories</a>
+                            <div class="dropdown-list">
+                                <a href="/category/hitchhiking.htm">Hitch Hiking</a>
+                                <a href="/category/beach.htm">Beach</a>
+                                <a href="/category/mountains.htm">Mountains</a>
+                                <a href="/category/ocean.htm">Ocean</a>
+                                <a href="/category/waterfalls.htm">Waterfalls</a>
+                                <a href="/category/camping.htm">Camping</a>
+                                <a href="/category/couchsurfing.htm">Couch-Surfing</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="heada" style="cursor: default;">
+                        <div class="dropdown">
+                            <a class="gel">Pages</a>
+                            <div class="dropdown-list uncut">
+                                <a href="#">Books</a>
+                                <a href="#">Movies</a>
+                                <a href="#">Places</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="menu">
+                    <li class="searchbar">
+                        <form class="search" action="/pages/search.htm">
+                            <input type="checkbox" id="toggleSearch" class="search__toggle" hidden />
+                            <div class="search__field">
+                                <label for="toggleSearch" class="search__label">
+                                    <span class="search__close"></span>
+                                </label>
+                                <input type="text" class="search__input" placeholder="Search here" />
+                                <label for="toggleSearch" class="search__label">
+                                    <div class="search__button">
+                                        <div class="search__icon search__button--toggle"></div>
+                                    </div>
+                                    <button class="search__button search__button--submit">
+                                        <div class="search__icon"></div>
+                                    </button>
+                                </label>
+                            </div>
+                        </form>
+
+                    </li>
+                    <div class="stairs" id="nav-icon1">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                </div>
+            </nav>
+            <div class="absolute-text">
+                <div class="floating">
+                    <div>
+                        <h1>
+                            <span class="span-on">Dream...</span>
+                            <span class="span-tw">Chase..</span>
+                            <span class="span-th">Live.</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <p>This is a world travel blog featuring beautiful destinations, new experiences, and hidden
+                            places around the world.</p>
+                    </div>
+                    <a href="#lets-explore" id="letse">
+                        <div class="blink-button">
+                            <h4 title="Lets Explore">START EXPLORING</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="intro-box">
+            <div class="intro-txt">
+                <h1>Hi, I'm Uttam.</h1>
+                <p>Welcome to my solo travel blog. I’ve been solo traveling for over 1 years, and I share everything, I
+                    experienced.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img loading="lazy" src="/img/backpacker-3.jpg" alt="" width="100%">
+            </div>
+        </div>
+        <!-- <div class="newsletter">
+            <div class="news-box">
+                <h4>WANT FREE TRAVEL TIPS?</h4>
+                <p>Get the smartest travel tips delivered straight to your inbox so you could
+                    create the adventurous life you’ve been dreaming of. Subscribe now to discover ways to travel
+                    longer, further, and smarter.
+                </p>
+            </div>
+            <form action="" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <button>SUBSCRIBE</button>
+            </form>
+        </div> -->
+        <!-- <div class="search-sec">
+            <h1>Travel cheaper and longer</h1> <br>
+            <p>Where you wana go?</p>
+            <form action="">
+                <input type="text" placeholder="Search Destinations">
+                <button>Search</button>
+            </form>
+            <br>
+            <h5 style="font-weight: 100;"><strong>Most popular search: </strong>India, malaysia, China, Myanmar</h5>
+        </div> -->
+        <a name="lets-explore"></a>
+        <div class="blogging">
+            <h1>Blog</h1>
+            <div class="buttons">
+                <button class="filter-item active" data-filter="all">LATEST</button>
+                <button class="filter-item" data-filter="popular">POPULAR</button>
+            </div>
+            <div class="blogs-container">
+                <div class="blogs">
+                    <div class="gallery-item">
+                        <div class="gallery-item-inner">
+                            <a href="/blogs/top-10-travel-bloggers-in-the-world.html">
+                                <img loading="lazy" src="/post img/travel-blogger.jpg" alt="">
+                                <h4>Top 10 travel bloggers in the world</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-item-inner">
+                            <a href="/blogs/how-to-reach-statue-of-unity.htm">
+                                <img loading="lazy" src="/img-l/usi (10).jpg" alt="">
+                                <h4>How to Reach Statue of Unity from Vadodara</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-item-inner">
+                            <a href="/blogs/20-travel-essentials-you-should-carry.htm">
+                                <img loading="lazy" src="/post img/aa001.jpg" alt="">
+                                <h4>20 Travel Essentials You Should Carry</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="gallery-item">
+                        <div class="gallery-item-inner">
+                            <a href="">
+                                <img loading="lazy" src="/img/hitchhiker-1.jpg" alt="">
+                                <h4>How to Start Nomad Life</h4>
+                            </a>
+                        </div>
+                    </div> -->
+                    <div class="gallery-item popular">
+                        <div class="gallery-item-inner">
+                            <a href="">
+                                <img loading="lazy" src="/img/backpacker-3.jpg" alt="">
+                                <h4>First Day as a Solo Traveller</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-item popular">
+                        <div class="gallery-item-inner">
+                            <a href="">
+                                <img loading="lazy" src="/img/camping-3.jpg" alt="">
+                                <h4>What should You Pack For Solo Travel</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-item popular">
+                        <div class="gallery-item-inner">
+                            <a href="">
+                                <img loading="lazy" src="/img/backpacker-5.jpg" alt="">
+                                <h4>The Real Cost of Backpacking in Life</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/pages/blog.htm">
+                    <button class="more-blog">
+                        More Article
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="blogging">
+            <h1>Travel Gear</h1>
+            <div class="blogs-container">
+                <div class="blogs">
+                    <div class="gallery-items">
+                        <div class="gallery-item-inner">
+                            <a href="/blogs/how-to-reach-statue-of-unity.htm">
+                                <img loading="lazy" src="/img/backpacker-3.jpg" alt="">
+                                <h4>10 Best Hiking Backpack of 2022</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-items">
+                        <div class="gallery-item-inner">
+                            <a href="/blogs/20-travel-essentials-you-should-carry.htm">
+                                <img loading="lazy" src="/post img/aa001.jpg" alt="">
+                                <h4>5 Best Vlogging Cameras</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-items">
+                        <div class="gallery-item-inner">
+                            <a href="">
+                                <img loading="lazy" src="/post img/shoes.jpg" alt="">
+                                <h4>Top 10 Best comfortable Shoes For Travelling</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-items">
+                        <div class="gallery-item-inner">
+                            <a href="">
+                                <img loading="lazy" src="/img/camping-4.jpg" alt="">
+                                <h4>The 10 Best Backpacking Tents of 2022</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/pages/gear.htm">
+                    <button class="more-blog">
+                        Read More
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="vlogging">
+            <h1>Recent vlog</h1>
+            <div class="vlog">
+                <div style="width: 100%; max-width: 336px; box-shadow: 0px 1px 40px #000000; margin: 1rem .5rem;">
+                    <div style="position: relative; padding-bottom: 56.15%; height: 0; overflow: hidden;">
+                        <iframe style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                            loading="lazy" ; srcdoc="<style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        body, html {
+                          height: 100%;
+                        }
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        body:hover svg {
+                          filter: drop-shadow(5px 5px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.1);
+                          
+                        }
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/7rgDa3oAg8w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0'>
+                        <img src='img/forest-view.jpg'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ff8800' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>
+                      " src=https://www.youtube.com/embed/7rgDa3oAg8w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0""
+                            title="{{ YOUTUBE-TITLE }}" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div style="width: 100%; max-width: 336px; box-shadow: 0px 1px 40px #000000; margin: 1rem .5rem;">
+                    <div style="position: relative; padding-bottom: 56.15%; height: 0; overflow: hidden;">
+                        <iframe style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                            loading="lazy" ; srcdoc="<style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        body, html {
+                          height: 100%;
+                        }
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        body:hover svg {
+                          filter: drop-shadow(5px 5px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.1);
+                          
+                        }
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/7rgDa3oAg8w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0'>
+                        <img src='img/waterfall.jpg'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ff8800' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>
+                      " src=https://www.youtube.com/embed/7rgDa3oAg8w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0""
+                            title="{{ YOUTUBE-TITLE }}" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div style="width: 100%; max-width: 336px; box-shadow: 0px 1px 40px #000000; margin: 1rem .5rem;">
+                    <div style="position: relative; padding-bottom: 56.15%; height: 0; overflow: hidden;">
+                        <iframe style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0;"
+                            loading="lazy" ; srcdoc="<style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        body, html {
+                          height: 100%;
+                        }
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        svg {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                        }
+                        body:hover svg {
+                          filter: drop-shadow(5px 5px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.1);
+                          
+                        }
+                        }
+                      </style>
+                      <a href='https://www.youtube.com/embed/7rgDa3oAg8w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0'>
+                          <img src='img/lake-view.jpg'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ff8800' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                      </a>
+                      " src=https://www.youtube.com/embed/7rgDa3oAg8w?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0""
+                            title="{{ YOUTUBE-TITLE }}" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shrt-desti">
+            <h1>Destination</h1>
+            <div class="shrt-desti-1">
+                <div>
+                    <a href="/destinations/asia/india.htm">
+                        <img src="/img/india-dest.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>INDIA</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="/destinations/asia/russia.htm">
+                        <img src="/img/russia-dest.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>RUSSIA</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="/destinations/europe/spain.htm">
+                        <img src="/img/spain-dest.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>SPAIN</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="/destinations/north-america/usa.htm">
+                        <img src="/img/new-york.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>USA</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="/destinations/australia/australia.htm">
+                        <img src="/img/australia-dest.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>AUSTRALIA</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="/destinations/europe/france.htm">
+                        <img src="/img/france.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>FRANCE</h4>
+                    </a>
+                </div>
+                <div>
+                    <a href="/destinations/europe/germany.htm">
+                        <img src="/img/germany-dest.jpg" alt="" class="dest-img" loading="lazy">
+                        <h4>GERMANY</h4>
+                    </a>
+                </div>
+            </div>
+            <a href="/pages/destination.htm">
+                <button class="more-blog">
+                    More destination
+                </button>
+            </a>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="copy">
+                    <h6>COPYRIGHT &copy; 2022 NOMAD UTTAM</h6>
+                </div>
+                <div class="links">
+                    <a href="/links/about.htm">About me</a>
+                    <a href="/links/contact.htm">Contact Me</a>
+                    <a href="/links/privacy.htm">Privacy Policy</a>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/nomaduttam" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nomaduttam" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com/nomad_uttam" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCCe8u7febsKIrEk6O3A8B-g" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up"
+                    aria-hidden="true"></i>
+            </button>
+        </footer>
+    </div>
+    <script>
+        // navbar hide 
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navigation").style.top = "0";
+            } else {
+                document.getElementById("navigation").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        // data-filter
+        const filterContainer = document.querySelector(".buttons");
+        const galleryItems = document.querySelectorAll(".gallery-item");
+        filterContainer.addEventListener("click", (event) => {
+            if (event.target.classList.contains("filter-item")) {
+
+                filterContainer.querySelector(".active").classList.remove("active");
+
+                event.target.classList.add("active");
+
+                const filterValue = event.target.getAttribute("data-filter");
+
+                galleryItems.forEach((item) => {
+
+                    if (item.classList.contains(filterValue) || filterValue === 'all') {
+                        item.classList.remove("hide");
+                        item.classList.add("show");
+                    }
+
+                    else {
+                        item.classList.remove("show");
+                        item.classList.add("hide");
+                    }
+
+                });
+            }
+        });
+        // menu button
+        document.querySelector("#nav-icon1").addEventListener("click", function () {
+            document.querySelector(".navbar").classList.toggle("responsive");
+            document.querySelector("#nav-icon1").classList.toggle("open");
+        });
+
+
+        // pause video 
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtns");
+
+        function myFunction() {
+            var item = document.querySelector("#myBtns i");
+            if (video.paused) {
+                video.play();
+                item.classList.remove("fa-play");
+                item.classList.add("fa-pause");
+            } else {
+                video.pause();
+                item.classList.remove("fa-pause");
+                item.classList.add("fa-play");
+            }
+        }
+        // dark mode 
+        const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme) {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+
+            if (currentTheme === 'light') {
+                toggleSwitch.checked = true;
+            }
+        }
+
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }
+            else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        toggleSwitch.addEventListener('change', switchTheme, false);
+    </script>
+</body>
+
+</html>
